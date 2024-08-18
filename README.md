@@ -1,5 +1,6 @@
-#Mosh Usage Instructions (in English)
-Server Setup:
+#Mosh Usage Instructions
+
+***Server Setup:***
 
 Run the installation script on the server:
 
@@ -8,12 +9,17 @@ Run the installation script on the server:
 The script will automatically install Mosh, create a user, and set up the service.
     Ensure that UDP ports 60000 to 61000 are open in your server's firewall.
 
-#Client Usage:
-    Install Mosh on the client machine:
-        Ubuntu/Debian: sudo apt-get install mosh
-        macOS: brew install mosh
-        Windows: Use Windows Subsystem for Linux (WSL) or MobaXterm
-    Connect to the server:
+***Client Usage:***
+
+Install Mosh on the client machine:
+
+Ubuntu/Debian: `sudo apt-get install mosh`
+
+macOS: `brew install mosh`
+
+Windows: Use Windows Subsystem for Linux (WSL) or MobaXterm
+
+#Connect to the server:
 
 ```mosh username@server-address```
 
