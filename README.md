@@ -9,6 +9,10 @@ Run the installation script on the server:
 
 ```sudo ./setup_mosh.sh```
 
+if you want set locale use
+
+```sudo ./setup_mosh-set-locale.sh``` default use ru_RU.UTF8
+
 The script will automatically install Mosh, create a user, and set up the service.
     Ensure that UDP ports 60000 to 61000 are open in your server's firewall.
 
