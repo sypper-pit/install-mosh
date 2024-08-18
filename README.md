@@ -2,7 +2,9 @@
 Server Setup:
 
 Run the installation script on the server:
-    `sudo ./setup_mosh.sh`
+
+```sudo ./setup_mosh.sh```
+
 The script will automatically install Mosh, create a user, and set up the service.
     Ensure that UDP ports 60000 to 61000 are open in your server's firewall.
 
@@ -13,12 +15,14 @@ The script will automatically install Mosh, create a user, and set up the servic
         Windows: Use Windows Subsystem for Linux (WSL) or MobaXterm
     Connect to the server:
 
-`mosh username@server-address`
+```mosh username@server-address```
 
 Replace username with the actual username and server-address with the server's IP address or domain name.
 
 #If you need to use a specific SSH port:
-    `mosh --ssh="ssh -p PORT" username@server-address`
+
+```mosh --ssh="ssh -p PORT" username@server-address```
+
 Replace PORT with the desired port number.
 
 #Benefits of using Mosh:
