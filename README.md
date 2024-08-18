@@ -1,5 +1,8 @@
 #Mosh Usage Instructions
 
+**Donate**
+USDT TRC20: `TTZGfnhurU62VRRGYUHMPJ8q6U8rn5xG5a`
+
 ***Server Setup:***
 
 Run the installation script on the server:
